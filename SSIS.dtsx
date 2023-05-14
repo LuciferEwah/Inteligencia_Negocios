@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="5/9/2023 3:59:08 PM"
@@ -11,8 +11,8 @@
   DTS:LocaleID="2058"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="11"
-  DTS:VersionGUID="{A0D7AFC3-E3C0-4BE3-98A5-1C068DD4EB34}">
+  DTS:VersionBuild="14"
+  DTS:VersionGUID="{F20233E4-EDBC-4952-AA55-65E918F80D23}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -108,8 +108,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\bank.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-1QUSC2L.bankSQL]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-1QUSC2L.bankSQL]"
+                  connectionManagerID="{080D91D1-93BA-4265-9C67-8A264E6A709E}:invalid"
+                  connectionManagerRefId="{080D91D1-93BA-4265-9C67-8A264E6A709E}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -604,8 +604,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\bankAdicional.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-1QUSC2L.bankAdicionalSQL]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-1QUSC2L.bankAdicionalSQL]"
+                  connectionManagerID="{D4C65A15-C4FB-4894-AE73-862E6BE7A67D}:invalid"
+                  connectionManagerRefId="{D4C65A15-C4FB-4894-AE73-862E6BE7A67D}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -852,127 +852,127 @@
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;age&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;age&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;job&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;job&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;marital&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;marital&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;education&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;education&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;default&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;default&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;housing&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;housing&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;loan&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;loan&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;contact&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;contact&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;month&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;month&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;day_of_week&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;day_of_week&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;duration&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;duration&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;campaign&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;campaign&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;pdays&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;pdays&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;previous&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;previous&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;poutcome&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;poutcome&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;emp var rate&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;emp var rate&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;cons price idx&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;cons price idx&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;cons conf idx&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;cons conf idx&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;euribor3m&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;euribor3m&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;nr employed&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;nr employed&quot;" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Output].ExternalColumns[&quot;y&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       name="&quot;y&quot;" />
                   </externalMetadataColumns>
                 </output>
@@ -985,147 +985,147 @@
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;age&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;age&quot;]"
                       name="&quot;age&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;job&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;job&quot;]"
                       name="&quot;job&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;marital&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;marital&quot;]"
                       name="&quot;marital&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;education&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;education&quot;]"
                       name="&quot;education&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;default&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;default&quot;]"
                       name="&quot;default&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;housing&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;housing&quot;]"
                       name="&quot;housing&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;loan&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;loan&quot;]"
                       name="&quot;loan&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;contact&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;contact&quot;]"
                       name="&quot;contact&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;month&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;month&quot;]"
                       name="&quot;month&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;day_of_week&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;day_of_week&quot;]"
                       name="&quot;day_of_week&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;duration&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;duration&quot;]"
                       name="&quot;duration&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;campaign&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;campaign&quot;]"
                       name="&quot;campaign&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;pdays&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;pdays&quot;]"
                       name="&quot;pdays&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;previous&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;previous&quot;]"
                       name="&quot;previous&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;poutcome&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;poutcome&quot;]"
                       name="&quot;poutcome&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;emp var rate&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;emp var rate&quot;]"
                       name="&quot;emp var rate&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;cons price idx&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;cons price idx&quot;]"
                       name="&quot;cons price idx&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;cons conf idx&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;cons conf idx&quot;]"
                       name="&quot;cons conf idx&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;euribor3m&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;euribor3m&quot;]"
                       name="&quot;euribor3m&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;nr employed&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;nr employed&quot;]"
                       name="&quot;nr employed&quot;" />
                     <outputColumn
                       refId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;y&quot;]"
                       codePage="1252"
                       dataType="str"
-                      length="50"
+                      length="255"
                       lineageId="Package\Data Flow Task\bankAdicional.Outputs[OLE DB Source Error Output].Columns[&quot;y&quot;]"
                       name="&quot;y&quot;" />
                     <outputColumn
@@ -1204,8 +1204,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\dim_campaña.Connections[OleDbConnection]"
-                  connectionManagerID="{9032625E-9E1C-4907-A073-DF52418C7687}:invalid"
-                  connectionManagerRefId="{9032625E-9E1C-4907-A073-DF52418C7687}:invalid"
+                  connectionManagerID="{1259D112-C6BB-452B-A6EA-7EB6DEDB27AD}:invalid"
+                  connectionManagerRefId="{1259D112-C6BB-452B-A6EA-7EB6DEDB27AD}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1325,8 +1325,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\dim_educacion.Connections[OleDbConnection]"
-                  connectionManagerID="{9032625E-9E1C-4907-A073-DF52418C7687}:invalid"
-                  connectionManagerRefId="{9032625E-9E1C-4907-A073-DF52418C7687}:invalid"
+                  connectionManagerID="{1259D112-C6BB-452B-A6EA-7EB6DEDB27AD}:invalid"
+                  connectionManagerRefId="{1259D112-C6BB-452B-A6EA-7EB6DEDB27AD}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1380,6 +1380,611 @@
                       refId="Package\Data Flow Task\dim_educacion.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\Data Flow Task\dim_educacion.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\dim_matrimonial"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="dim_matrimonial"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[DimMatrimonial]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\dim_matrimonial.Connections[OleDbConnection]"
+                  connectionManagerID="{1259D112-C6BB-452B-A6EA-7EB6DEDB27AD}:invalid"
+                  connectionManagerRefId="{1259D112-C6BB-452B-A6EA-7EB6DEDB27AD}:invalid"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\dim_matrimonial.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\dim_matrimonial.Inputs[OLE DB Destination Input].Columns[matrimonial]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="matrimonial"
+                      externalMetadataColumnId="Package\Data Flow Task\dim_matrimonial.Inputs[OLE DB Destination Input].ExternalColumns[estado_matrimonial]"
+                      lineageId="Package\Data Flow Task\Unir columnas nuevas.Outputs[Union All Output 1].Columns[matrimonial]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\dim_matrimonial.Inputs[OLE DB Destination Input].ExternalColumns[matrimonial_id]"
+                      dataType="i4"
+                      name="matrimonial_id" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\dim_matrimonial.Inputs[OLE DB Destination Input].ExternalColumns[estado_matrimonial]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="estado_matrimonial" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\dim_matrimonial.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Data Flow Task\dim_matrimonial.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\dim_matrimonial.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\dim_matrimonial.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\dim_matrimonial.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\dim_matrimonial.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\dim_mes"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="dim_mes"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[DimMes]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\dim_mes.Connections[OleDbConnection]"
+                  connectionManagerID="{1259D112-C6BB-452B-A6EA-7EB6DEDB27AD}:invalid"
+                  connectionManagerRefId="{1259D112-C6BB-452B-A6EA-7EB6DEDB27AD}:invalid"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\dim_mes.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\dim_mes.Inputs[OLE DB Destination Input].Columns[mes]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="mes"
+                      externalMetadataColumnId="Package\Data Flow Task\dim_mes.Inputs[OLE DB Destination Input].ExternalColumns[nombre_mes]"
+                      lineageId="Package\Data Flow Task\Unir columnas nuevas.Outputs[Union All Output 1].Columns[mes]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\dim_mes.Inputs[OLE DB Destination Input].ExternalColumns[mes_id]"
+                      dataType="i4"
+                      name="mes_id" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\dim_mes.Inputs[OLE DB Destination Input].ExternalColumns[nombre_mes]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="nombre_mes" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\dim_mes.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Data Flow Task\dim_mes.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\dim_mes.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\dim_mes.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\dim_mes.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\dim_mes.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\dim_prestamo"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="dim_prestamo"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[DimPrestamo]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\dim_prestamo.Connections[OleDbConnection]"
+                  connectionManagerID="{1259D112-C6BB-452B-A6EA-7EB6DEDB27AD}:invalid"
+                  connectionManagerRefId="{1259D112-C6BB-452B-A6EA-7EB6DEDB27AD}:invalid"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\dim_prestamo.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\dim_prestamo.Inputs[OLE DB Destination Input].Columns[prestamo]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="prestamo"
+                      externalMetadataColumnId="Package\Data Flow Task\dim_prestamo.Inputs[OLE DB Destination Input].ExternalColumns[tiene_prestamo_personal]"
+                      lineageId="Package\Data Flow Task\Unir columnas nuevas.Outputs[Union All Output 1].Columns[prestamo]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\dim_prestamo.Inputs[OLE DB Destination Input].ExternalColumns[prestamo_id]"
+                      dataType="i4"
+                      name="prestamo_id" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\dim_prestamo.Inputs[OLE DB Destination Input].ExternalColumns[tiene_prestamo_personal]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="tiene_prestamo_personal" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\dim_prestamo.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Data Flow Task\dim_prestamo.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\dim_prestamo.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\dim_prestamo.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\dim_prestamo.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\dim_prestamo.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\dim_ResultadoDeLaCampana"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="dim_ResultadoDeLaCampana"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[DimResultado_de_la_campana]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\dim_ResultadoDeLaCampana.Connections[OleDbConnection]"
+                  connectionManagerID="{1259D112-C6BB-452B-A6EA-7EB6DEDB27AD}:invalid"
+                  connectionManagerRefId="{1259D112-C6BB-452B-A6EA-7EB6DEDB27AD}:invalid"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\dim_ResultadoDeLaCampana.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\dim_ResultadoDeLaCampana.Inputs[OLE DB Destination Input].Columns[resultado_de_la_campana]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="resultado_de_la_campana"
+                      externalMetadataColumnId="Package\Data Flow Task\dim_ResultadoDeLaCampana.Inputs[OLE DB Destination Input].ExternalColumns[resultado]"
+                      lineageId="Package\Data Flow Task\Unir columnas nuevas.Outputs[Union All Output 1].Columns[resultado_de_la_campana]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\dim_ResultadoDeLaCampana.Inputs[OLE DB Destination Input].ExternalColumns[resultado_id]"
+                      dataType="i4"
+                      name="resultado_id" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\dim_ResultadoDeLaCampana.Inputs[OLE DB Destination Input].ExternalColumns[resultado]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="resultado" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\dim_ResultadoDeLaCampana.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Data Flow Task\dim_ResultadoDeLaCampana.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\dim_ResultadoDeLaCampana.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\dim_ResultadoDeLaCampana.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\dim_ResultadoDeLaCampana.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\dim_ResultadoDeLaCampana.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\dim_trabajo"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="dim_trabajo"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[DimTrabajo]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\dim_trabajo.Connections[OleDbConnection]"
+                  connectionManagerID="{1259D112-C6BB-452B-A6EA-7EB6DEDB27AD}:invalid"
+                  connectionManagerRefId="{1259D112-C6BB-452B-A6EA-7EB6DEDB27AD}:invalid"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\dim_trabajo.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\dim_trabajo.Inputs[OLE DB Destination Input].Columns[trabajo]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="trabajo"
+                      externalMetadataColumnId="Package\Data Flow Task\dim_trabajo.Inputs[OLE DB Destination Input].ExternalColumns[nombre_trabajo]"
+                      lineageId="Package\Data Flow Task\Unir columnas nuevas.Outputs[Union All Output 1].Columns[trabajo]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\dim_trabajo.Inputs[OLE DB Destination Input].ExternalColumns[trabajo_id]"
+                      dataType="i4"
+                      name="trabajo_id" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\dim_trabajo.Inputs[OLE DB Destination Input].ExternalColumns[nombre_trabajo]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="nombre_trabajo" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\dim_trabajo.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Data Flow Task\dim_trabajo.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\dim_trabajo.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\dim_trabajo.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\dim_trabajo.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\dim_trabajo.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1446,8 +2051,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\dim_vivienda.Connections[OleDbConnection]"
-                  connectionManagerID="{9032625E-9E1C-4907-A073-DF52418C7687}:invalid"
-                  connectionManagerRefId="{9032625E-9E1C-4907-A073-DF52418C7687}:invalid"
+                  connectionManagerID="{1259D112-C6BB-452B-A6EA-7EB6DEDB27AD}:invalid"
+                  connectionManagerRefId="{1259D112-C6BB-452B-A6EA-7EB6DEDB27AD}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -2315,7 +2920,7 @@
                   dataType="System.Int32"
                   description="Specifies the mode used to access the database."
                   name="AccessMode"
-                  typeConverter="AccessMode">0</property>
+                  typeConverter="AccessMode">3</property>
                 <property
                   dataType="System.Boolean"
                   description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
@@ -2327,7 +2932,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
-                  name="FastLoadOptions"></property>
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
@@ -2336,6 +2941,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\HechosDepositos.Connections[OleDbConnection]"
+                  connectionManagerID="{D4C65A15-C4FB-4894-AE73-862E6BE7A67D}:invalid"
+                  connectionManagerRefId="{D4C65A15-C4FB-4894-AE73-862E6BE7A67D}:invalid"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -5951,6 +6558,31 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
               name="(educacion)"
               startId="Package\Data Flow Task\Separacion de todas las tablas.Outputs[(educacion)]" />
             <path
+              refId="Package\Data Flow Task.Paths[(matrimonial)]"
+              endId="Package\Data Flow Task\dim_matrimonial.Inputs[OLE DB Destination Input]"
+              name="(matrimonial)"
+              startId="Package\Data Flow Task\Separacion de todas las tablas.Outputs[(matrimonial)]" />
+            <path
+              refId="Package\Data Flow Task.Paths[(mes)]"
+              endId="Package\Data Flow Task\dim_mes.Inputs[OLE DB Destination Input]"
+              name="(mes)"
+              startId="Package\Data Flow Task\Separacion de todas las tablas.Outputs[(mes)]" />
+            <path
+              refId="Package\Data Flow Task.Paths[(prestamo)]"
+              endId="Package\Data Flow Task\dim_prestamo.Inputs[OLE DB Destination Input]"
+              name="(prestamo)"
+              startId="Package\Data Flow Task\Separacion de todas las tablas.Outputs[(prestamo)]" />
+            <path
+              refId="Package\Data Flow Task.Paths[(resultado_de_la_campana)]"
+              endId="Package\Data Flow Task\dim_ResultadoDeLaCampana.Inputs[OLE DB Destination Input]"
+              name="(resultado_de_la_campana)"
+              startId="Package\Data Flow Task\Separacion de todas las tablas.Outputs[(resultado_de_la_campana)]" />
+            <path
+              refId="Package\Data Flow Task.Paths[(trabajo)]"
+              endId="Package\Data Flow Task\dim_trabajo.Inputs[OLE DB Destination Input]"
+              name="(trabajo)"
+              startId="Package\Data Flow Task\Separacion de todas las tablas.Outputs[(trabajo)]" />
+            <path
               refId="Package\Data Flow Task.Paths[(vivienda)]"
               endId="Package\Data Flow Task\dim_vivienda.Inputs[OLE DB Destination Input]"
               name="(vivienda)"
@@ -6043,27 +6675,55 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
     design-time-name="Package\Data Flow Task">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="121,42"
-          Id="Package\Data Flow Task\Union All"
-          TopLeft="394,137" />
+        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="145,42"
           Id="Package\Data Flow Task\dim_campaña"
-          TopLeft="774.444444444444,410" />
+          TopLeft="659.777777777777,417.666666666667" />
         <NodeLayout
-          Size="240,42"
-          Id="Package\Data Flow Task\se cambia los strings por numeros"
-          TopLeft="193,365" />
+          Size="222,42"
+          Id="Package\Data Flow Task\Separacion de todas las tablas"
+          TopLeft="793,545.444444444445" />
+        <NodeLayout
+          Size="281,42"
+          Id="Package\Data Flow Task\Eliminar un caracter de todas las columnas"
+          TopLeft="321,214" />
         <NodeLayout
           Size="144,42"
           Id="Package\Data Flow Task\bankAdicional"
           TopLeft="523,80" />
         <NodeLayout
+          Size="240,42"
+          Id="Package\Data Flow Task\se cambia los strings por numeros"
+          TopLeft="193,365" />
+        <NodeLayout
+          Size="141,42"
+          Id="Package\Data Flow Task\dim_vivienda"
+          TopLeft="822.777777777777,419.444444444444" />
+        <NodeLayout
+          Size="121,42"
+          Id="Package\Data Flow Task\Union All"
+          TopLeft="394,137" />
+        <NodeLayout
+          Size="216,42"
+          Id="Package\Data Flow Task\dim_ResultadoDeLaCampana"
+          TopLeft="906,649.888888888889" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Data Flow Task\Eliminar columnas2"
+          TopLeft="491.388888888889,463.222222222222" />
+        <NodeLayout
+          Size="121,42"
+          Id="Package\Data Flow Task\dim_mes"
+          TopLeft="1157.11111111111,413.777777777778" />
+        <NodeLayout
           Size="182,42"
           Id="Package\Data Flow Task\Unir columnas nuevas"
-          TopLeft="399,540" />
+          TopLeft="370.666666666667,540" />
+        <NodeLayout
+          Size="149,42"
+          Id="Package\Data Flow Task\dim_educacion"
+          TopLeft="536.777777777777,644.111111111111" />
         <NodeLayout
           Size="120,42"
           Id="Package\Data Flow Task\Multicast"
@@ -6077,59 +6737,39 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
           Id="Package\Data Flow Task\Eliminar Columnas"
           TopLeft="228,461" />
         <NodeLayout
-          Size="149,42"
-          Id="Package\Data Flow Task\dim_educacion"
-          TopLeft="752.222222222222,620" />
+          Size="135,42"
+          Id="Package\Data Flow Task\dim_trabajo"
+          TopLeft="992.166666666667,417.069739952719" />
         <NodeLayout
-          Size="281,42"
-          Id="Package\Data Flow Task\Eliminar un caracter de todas las columnas"
-          TopLeft="321,214" />
-        <NodeLayout
-          Size="159,42"
-          Id="Package\Data Flow Task\HechosDepositos"
-          TopLeft="1085.55555555556,524.444444444445" />
-        <NodeLayout
-          Size="222,42"
-          Id="Package\Data Flow Task\Separacion de todas las tablas"
-          TopLeft="732.555555555555,526.777777777778" />
-        <NodeLayout
-          Size="170,42"
-          Id="Package\Data Flow Task\Eliminar columnas2"
-          TopLeft="501.388888888889,463.222222222222" />
+          Size="146,42"
+          Id="Package\Data Flow Task\dim_prestamo"
+          TopLeft="1144.44444444444,650" />
         <NodeLayout
           Size="102,42"
           Id="Package\Data Flow Task\bank"
           TopLeft="282,77" />
         <NodeLayout
-          Size="141,42"
-          Id="Package\Data Flow Task\dim_vivienda"
-          TopLeft="984.444444444444,413.333333333333" />
+          Size="158,42"
+          Id="Package\Data Flow Task\dim_matrimonial"
+          TopLeft="710.888888888889,647.666666666667" />
+        <NodeLayout
+          Size="159,42"
+          Id="Package\Data Flow Task\HechosDepositos"
+          TopLeft="1245.55555555556,540.000000000001" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Union All Output 13]"
-          TopLeft="581,561">
+          TopLeft="552.666666666667,563.722222222222">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="151.555555555555,-13.2222222222219"
+              EndConnector="240.333333333333,0"
               Start="0,0"
-              End="144.055555555555,-13.2222222222219">
+              End="232.833333333333,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="71.7777777777777,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="71.7777777777777,0"
-                    Point2="75.7777777777777,0"
-                    Point3="75.7777777777777,-4" />
-                  <mssgle:LineSegment
-                    End="75.7777777777777,-9.22222222222194" />
-                  <mssgle:CubicBezierSegment
-                    Point1="75.7777777777777,-9.22222222222194"
-                    Point2="75.7777777777777,-13.2222222222219"
-                    Point3="79.7777777777777,-13.2222222222219" />
-                  <mssgle:LineSegment
-                    End="144.055555555555,-13.2222222222219" />
+                    End="232.833333333333,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6144,9 +6784,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="150,37"
+              EndConnector="121.666666666667,37"
               Start="0,0"
-              End="150,29.5">
+              End="121.666666666667,29.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -6157,13 +6797,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                     Point2="0,22.0065359477124"
                     Point3="4,22.0065359477124" />
                   <mssgle:LineSegment
-                    End="146,22.0065359477124" />
+                    End="117.666666666667,22.0065359477124" />
                   <mssgle:CubicBezierSegment
-                    Point1="146,22.0065359477124"
-                    Point2="150,22.0065359477124"
-                    Point3="150,26.0065359477124" />
+                    Point1="117.666666666667,22.0065359477124"
+                    Point2="121.666666666667,22.0065359477124"
+                    Point3="121.666666666667,26.0065359477124" />
                   <mssgle:LineSegment
-                    End="150,29.5" />
+                    End="121.666666666667,29.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6174,30 +6814,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Union All Output 11]"
-          TopLeft="586.388888888889,505.222222222222">
+          TopLeft="576.388888888889,505.222222222222">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-67.3888888888891,34.7777777777777"
+              EndConnector="-85.7222222222223,34.777777777778"
               Start="0,0"
-              End="-67.3888888888891,27.2777777777777">
+              End="-85.7222222222223,27.277777777778">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,16.6848220769789" />
+                    End="0,16.6848220769791" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,16.6848220769789"
-                    Point2="0,20.6848220769789"
-                    Point3="-4,20.6848220769789" />
+                    Point1="0,16.6848220769791"
+                    Point2="0,20.6848220769791"
+                    Point3="-4,20.6848220769791" />
                   <mssgle:LineSegment
-                    End="-63.3888888888891,20.6848220769789" />
+                    End="-81.7222222222223,20.6848220769791" />
                   <mssgle:CubicBezierSegment
-                    Point1="-63.3888888888891,20.6848220769789"
-                    Point2="-67.3888888888891,20.6848220769789"
-                    Point3="-67.3888888888891,24.6848220769789" />
+                    Point1="-81.7222222222223,20.6848220769791"
+                    Point2="-85.7222222222223,20.6848220769791"
+                    Point3="-85.7222222222223,24.6848220769791" />
                   <mssgle:LineSegment
-                    End="-67.3888888888891,27.2777777777777" />
+                    End="-85.7222222222223,27.277777777778" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6230,30 +6870,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Salida 0]"
-          TopLeft="573,406">
+          TopLeft="574.694444444445,406">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="13.3888888888891,57.2222222222223"
+              EndConnector="0,57.222222222222"
               Start="0,0"
-              End="13.3888888888891,49.7222222222223">
+              End="0,49.722222222222">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,24.6111111111111" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,24.6111111111111"
-                    Point2="0,28.6111111111111"
-                    Point3="4,28.6111111111111" />
-                  <mssgle:LineSegment
-                    End="9.38888888888914,28.6111111111111" />
-                  <mssgle:CubicBezierSegment
-                    Point1="9.38888888888914,28.6111111111111"
-                    Point2="13.3888888888891,28.6111111111111"
-                    Point3="13.3888888888891,32.6111111111111" />
-                  <mssgle:LineSegment
-                    End="13.3888888888891,49.7222222222223" />
+                    End="0,49.722222222222" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6432,133 +7060,313 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Conditional Split Default Output]"
-          TopLeft="954.555555555555,546.611111111111">
+          TopLeft="1015,563.722222222223">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="131,0"
+              EndConnector="230.55555555556,0"
               Start="0,0"
-              End="123.5,0">
+              End="223.05555555556,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="123.5,0" />
+                    End="223.05555555556,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-8.8639062499999,5,141.2278125,11.658203125"
+              BoundingBox="40.9138715277801,5,141.2278125,11.658203125"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[(vivienda)]"
-          TopLeft="879.222222222222,526.777777777778">
+          TopLeft="882.6,545.444444444445">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="175.722222222222,-71.4444444444447"
+              EndConnector="10.6777777777775,-84.0000000000005"
               Start="0,0"
-              End="175.722222222222,-63.9444444444447">
+              End="10.6777777777775,-76.5000000000005">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-24.8845160007952" />
+                    End="0,-33.5194416749753" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-24.8845160007952"
-                    Point2="0,-28.8845160007952"
-                    Point3="4,-28.8845160007952" />
+                    Point1="0,-33.5194416749753"
+                    Point2="0,-37.5194416749753"
+                    Point3="4,-37.5194416749753" />
                   <mssgle:LineSegment
-                    End="171.722222222222,-28.8845160007952" />
+                    End="6.67777777777746,-37.5194416749753" />
                   <mssgle:CubicBezierSegment
-                    Point1="171.722222222222,-28.8845160007952"
-                    Point2="175.722222222222,-28.8845160007952"
-                    Point3="175.722222222222,-32.8845160007952" />
+                    Point1="6.67777777777746,-37.5194416749753"
+                    Point2="10.6777777777775,-37.5194416749753"
+                    Point3="10.6777777777775,-41.5194416749753" />
                   <mssgle:LineSegment
-                    End="175.722222222222,-63.9444444444447" />
+                    End="10.6777777777775,-76.5000000000005" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="65.4793923611111,-23.8845160007952,44.7634375,11.609375"
+              BoundingBox="-17.0428298611113,-32.5194416749753,44.7634375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[(trabajo)]"
+          TopLeft="925.4,545.444444444445">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="134.266666666667,-86.3747044917258"
+              Start="0,0"
+              End="134.266666666667,-78.8747044917258">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-34.5801272306014" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-34.5801272306014"
+                    Point2="0,-38.5801272306014"
+                    Point3="4,-38.5801272306014" />
+                  <mssgle:LineSegment
+                    End="130.266666666667,-38.5801272306014" />
+                  <mssgle:CubicBezierSegment
+                    Point1="130.266666666667,-38.5801272306014"
+                    Point2="134.266666666667,-38.5801272306014"
+                    Point3="134.266666666667,-42.5801272306014" />
+                  <mssgle:LineSegment
+                    End="134.266666666667,-78.8747044917258" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="47.2216145833334,-33.5801272306014,39.8234375,11.6630859375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[(resultado_de_la_campana)]"
+          TopLeft="925.4,587.444444444445">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="88.6000000000004,62.4444444444443"
+              Start="0,0"
+              End="88.6000000000004,54.9444444444443">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.8914368007089" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,23.8914368007089"
+                    Point2="0,27.8914368007089"
+                    Point3="4,27.8914368007089" />
+                  <mssgle:LineSegment
+                    End="84.6000000000004,27.8914368007089" />
+                  <mssgle:CubicBezierSegment
+                    Point1="84.6000000000004,27.8914368007089"
+                    Point2="88.6000000000004,27.8914368007089"
+                    Point3="88.6000000000004,31.8914368007089" />
+                  <mssgle:LineSegment
+                    End="88.6000000000004,54.9444444444443" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-17.6617187499998,32.8914368007089,123.9234375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[(prestamo)]"
+          TopLeft="968.2,587.444444444445">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="249.244444444445,62.5555555555555"
+              Start="0,0"
+              End="249.244444444445,55.0555555555555">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.552598225602" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.552598225602"
+                    Point2="0,18.552598225602"
+                    Point3="4,18.552598225602" />
+                  <mssgle:LineSegment
+                    End="245.244444444445,18.552598225602" />
+                  <mssgle:CubicBezierSegment
+                    Point1="245.244444444445,18.552598225602"
+                    Point2="249.244444444445,18.552598225602"
+                    Point3="249.244444444445,22.552598225602" />
+                  <mssgle:LineSegment
+                    End="249.244444444445,55.0555555555555" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="99.6855034722223,23.552598225602,49.8734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[(mes)]"
+          TopLeft="968.2,545.444444444445">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="249.411111111111,-89.6666666666667"
+              Start="0,0"
+              End="249.411111111111,-82.1666666666667">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-22.5931558935361" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-22.5931558935361"
+                    Point2="0,-26.5931558935361"
+                    Point3="4,-26.5931558935361" />
+                  <mssgle:LineSegment
+                    End="245.411111111111,-26.5931558935361" />
+                  <mssgle:CubicBezierSegment
+                    Point1="245.411111111111,-26.5931558935361"
+                    Point2="249.411111111111,-26.5931558935361"
+                    Point3="249.411111111111,-30.5931558935361" />
+                  <mssgle:LineSegment
+                    End="249.411111111111,-82.1666666666667" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="111.343836805556,-21.5931558935361,26.7234375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[(matrimonial)]"
+          TopLeft="882.6,587.444444444445">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-92.711111111111,60.2222222222219"
+              Start="0,0"
+              End="-92.711111111111,52.7222222222219">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.8988589786196" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22.8988589786196"
+                    Point2="0,26.8988589786196"
+                    Point3="-4,26.8988589786196" />
+                  <mssgle:LineSegment
+                    End="-88.711111111111,26.8988589786196" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-88.711111111111,26.8988589786196"
+                    Point2="-92.711111111111,26.8988589786196"
+                    Point3="-92.711111111111,30.8988589786196" />
+                  <mssgle:LineSegment
+                    End="-92.711111111111,52.7222222222219" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-76.7172743055555,31.8988589786196,60.7234375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[(educacion)]"
-          TopLeft="843.555555555555,568.777777777778">
+          TopLeft="839.8,587.444444444445">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-16.8333333333333,51.2222222222221"
+              EndConnector="-228.522222222222,56.6666666666666"
               Start="0,0"
-              End="-16.8333333333333,43.7222222222221">
+              End="-228.522222222222,49.1666666666666">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.611111111111" />
+                    End="0,12.8060836501901" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,21.611111111111"
-                    Point2="0,25.611111111111"
-                    Point3="-4,25.611111111111" />
+                    Point1="0,12.8060836501901"
+                    Point2="0,16.8060836501901"
+                    Point3="-4,16.8060836501901" />
                   <mssgle:LineSegment
-                    End="-12.8333333333333,25.611111111111" />
+                    End="-224.522222222222,16.8060836501901" />
                   <mssgle:CubicBezierSegment
-                    Point1="-12.8333333333333,25.611111111111"
-                    Point2="-16.8333333333333,25.611111111111"
-                    Point3="-16.8333333333333,29.611111111111" />
+                    Point1="-224.522222222222,16.8060836501901"
+                    Point2="-228.522222222222,16.8060836501901"
+                    Point3="-228.522222222222,20.8060836501901" />
                   <mssgle:LineSegment
-                    End="-16.8333333333333,43.7222222222221" />
+                    End="-228.522222222222,49.1666666666666" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-34.7883854166666,30.611111111111,52.7434375,11.609375"
+              BoundingBox="-140.632829861111,21.8060836501901,52.7434375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[(campana)]"
-          TopLeft="807.888888888889,526.777777777778">
+          TopLeft="839.8,545.444444444445">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="39.0555555555553,-74.7777777777781"
+              EndConnector="-107.522222222222,-85.777777777778"
               Start="0,0"
-              End="39.0555555555553,-67.2777777777781">
+              End="-107.522222222222,-78.277777777778">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-26.2321606042538" />
+                    End="0,-21.4397972116604" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-26.2321606042538"
-                    Point2="0,-30.2321606042538"
-                    Point3="4,-30.2321606042538" />
+                    Point1="0,-21.4397972116604"
+                    Point2="0,-25.4397972116604"
+                    Point3="-4,-25.4397972116604" />
                   <mssgle:LineSegment
-                    End="35.0555555555553,-30.2321606042538" />
+                    End="-103.522222222222,-25.4397972116604" />
                   <mssgle:CubicBezierSegment
-                    Point1="35.0555555555553,-30.2321606042538"
-                    Point2="39.0555555555553,-30.2321606042538"
-                    Point3="39.0555555555553,-34.2321606042538" />
+                    Point1="-103.522222222222,-25.4397972116604"
+                    Point2="-107.522222222222,-25.4397972116604"
+                    Point3="-107.522222222222,-29.4397972116604" />
                   <mssgle:LineSegment
-                    End="39.0555555555553,-67.2777777777781" />
+                    End="-107.522222222222,-78.277777777778" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-4.70894097222234,-25.2321606042538,48.4734375,11.609375"
+              BoundingBox="-77.9978298611111,-20.4397972116604,48.4734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -6592,7 +7400,72 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\dim_vivienda">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\dim_ResultadoDeLaCampana">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\dim_mes">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Data Flow Task\dim_educacion">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\dim_trabajo">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\dim_prestamo">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6618,7 +7491,20 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\dim_vivienda">
+    design-time-name="Package\Data Flow Task\dim_matrimonial">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\HechosDepositos">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
